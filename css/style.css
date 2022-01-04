@@ -3,3 +3,46 @@
 *::after {
 box-sizing: border-box;
 }
+
+body {
+    color: #333;
+    font-size: 1.25rem;
+}
+
+.header-img {
+    width: 100%;
+    height: 4.5em;
+    background: url('img/mountain-landscape-art-public-domain-vector.jpg');
+    background-size: cover;
+}
+main {
+    color: blue;
+}
+
+.menu {
+    margin: 0 0 0 auto;
+}
+
+.menu ul {
+    list-style: none;
+    margin: .25rem;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0 .25rem;
+}
+
+.menu a {
+text-decoration: none;
+color: #333;
+text-transform: uppercase;
+font-size: 1em;
+font-weight: bold;
+font-family: 'Lato';
+}
+
+footer {
+    color: rgb(48, 131, 10);
+}
