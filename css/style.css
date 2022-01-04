@@ -10,17 +10,29 @@ body {
 }
 
 .header-img {
-    width: 100%;
-    height: 4.5em;
-    background: url('img/mountain-landscape-art-public-domain-vector.jpg');
+    width: auto;
+    height: 10em;
+    background: url('../img/20211230_020829.jpg');
     background-size: cover;
+    background-position: center;
+    /* clip-path: polygon(0 0, 53% 0, 53% 0, 0% 100%); */
+    /* transition: clip-path 1.75s; */
 }
+
+.header-img:hover {
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
+
+}
+
 main {
     color: blue;
+    text-shadow: blueviolet;
 }
 
 .menu {
-    margin: 0 0 0 auto;
+    /* margin: 0 0 0 auto; */
+    : right;
+
 }
 
 .menu ul {
@@ -36,11 +48,16 @@ main {
 
 .menu a {
 text-decoration: none;
-color: #333;
+color: rgb(4, 112, 18);
 text-transform: uppercase;
 font-size: 1em;
 font-weight: bold;
 font-family: 'Lato';
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(131, 3, 114);
 }
 
 footer {
