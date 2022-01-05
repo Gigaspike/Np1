@@ -12,8 +12,14 @@ header {
   color: #333;
 }
 
+header h2 {
+  text-shadow: 0 0 1px #000000, 0 0 3px #a88100bd;
+}
+
 footer {
-  color: #df04df;
+  color: #110101;
+  background-color: #ff6c37;
+  border: 3px solid #8e46d6;
 }
 
 .button-64 {
@@ -32,7 +38,7 @@ footer {
   display: -ms-flexbox;
   display: flex;
   font-family: Phantomsans, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -72,7 +78,7 @@ footer {
 
 @media (min-width: 768px) {
   .button-64 {
-    font-size: 24px;
+    font-size: 20px;
     min-width: .05rem;
   }
 }
@@ -84,8 +90,8 @@ footer {
           box-sizing: border-box;
 }
 
-header h2 {
-  text-shadow: 0 0 1px #000000, 0 0 3px #a88100bd;
+body {
+  background-color: #016f6a;
 }
 
 .menu {
@@ -106,5 +112,10 @@ header h2 {
 
 .Main-paragraph {
   background-color: coral;
+  border-radius: 8px;
+  border: 3px solid #8e46d6;
+  border-radius: 5px;
+  white-space: normal;
+  padding: 1% 10%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -8,7 +8,9 @@
 // mix in to cut down on repeat code
 
 header {
-
+    h2 {
+        text-shadow: 0 0 1px #000000, 0 0 3px #a88100bd;
+    }
     @include flexCenter();
 
     background: linear-gradient(144deg,#06ffdeab, #a163ca 50%,#d453b4);;

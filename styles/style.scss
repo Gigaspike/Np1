@@ -10,9 +10,9 @@
     box-sizing: border-box;
     }
 
-header h2 {
-    text-shadow: 0 0 1px #000000, 0 0 3px #a88100bd;
-}
+    body {
+        background-color: $bodyc;
+    }
 
 // in this menu example i used nesting where possible to cut down on addtional call backs.
 .menu {
@@ -33,7 +33,16 @@ header h2 {
 }
 
 .Main-paragraph {
-    background-color: coral;
+    background-color: $divmain;
+    border-radius: 8px;
+    border: 3px solid rgb(142, 70, 214);
+    border-radius: 5px;
+    white-space: normal;
+    padding: 1% 10%;
+    // border-color: brown;
+    // box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    // box-sizing: border-box;
+    // using variables to link to page color schemes
 }
 
 
