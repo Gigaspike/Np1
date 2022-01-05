@@ -127,11 +127,18 @@ body {
 }
 
 .col .thisone {
-  position: relaintive;
+  position: relative;
   display: inline-block;
   min-width: 100px;
   max-width: 30%;
-  padding-right: 10px;
+  padding: .5rem;
+  background: linear-gradient(58deg, #162417ab, #440d68be 55%, #270808da);
+  -webkit-box-shadow: inset 0px 0px 0px 8px rgba(255, 196, 0, 0.322);
+          box-shadow: inset 0px 0px 0px 8px rgba(255, 196, 0, 0.322);
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  word-wrap: break-word;
 }
 
 .col .thistwo {
@@ -139,7 +146,14 @@ body {
   display: inline-block;
   min-width: 100px;
   max-width: 30%;
-  padding-right: 10px;
+  padding: .5rem;
+  background: linear-gradient(58deg, #162417ab, #440d68be 55%, #270808da);
+  color: white;
+  -webkit-box-shadow: inset 0px 0px 0px 8px rgba(255, 196, 0, 0.322);
+          box-shadow: inset 0px 0px 0px 8px rgba(255, 196, 0, 0.322);
+  border-radius: 15px;
+  text-align: center;
+  word-wrap: break-word;
 }
 
 .col .thisthree {
@@ -147,6 +161,12 @@ body {
   display: inline-block;
   min-width: 100px;
   max-width: 30%;
-  padding-right: 10px;
+  padding: .5rem;
+  background: linear-gradient(58deg, #162417ab, #440d68be 55%, #270808da);
+  -webkit-box-shadow: inset 0px 0px 0px 8px rgba(255, 196, 0, 0.322);
+          box-shadow: inset 0px 0px 0px 8px rgba(255, 196, 0, 0.322);
+  border-radius: 15px;
+  color: white;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

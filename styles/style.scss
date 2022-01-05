@@ -51,11 +51,17 @@
     width: 100%;
     margin: 10px auto;
     .thisone {
-        position: relaintive;
+        position: relative;
         display: inline-block;
         min-width: 100px;
         max-width: 30%;
-        padding-right: 10px;
+        padding: .5rem;
+        background: $divcolor1;
+        box-shadow: inset 0px 0px 0px 8px rgba(255, 196, 0, 0.322);
+        border-radius: 15px;
+        color: $textondark;
+        text-align: center;
+        word-wrap: break-word;
     }
 
     .thistwo {
@@ -63,14 +69,25 @@
         display: inline-block;
         min-width: 100px;
         max-width: 30%;
-        padding-right: 10px;
+        padding: .5rem;
+        background: $divcolor1;
+        color: $textondark;
+        box-shadow: inset 0px 0px 0px 8px rgba(255, 196, 0, 0.322);
+        border-radius: 15px;
+        text-align: center;
+        word-wrap: break-word;  
     }
     .thisthree {
         position: relative;
         display: inline-block;
         min-width: 100px;
         max-width: 30%;
-        padding-right: 10px;
+        padding:.5rem;
+        background: $divcolor1;
+        box-shadow: inset 0px 0px 0px 8px rgba(255, 196, 0, 0.322);
+        border-radius: 15px;
+        color: $textondark;
+        text-align: center;
     }
 
 }
