@@ -1,13 +1,17 @@
 @import "./variables";
 @import "./header";
 @import "./footer";
-
+@import "./buttons";
 // the above section is to show how to import broken up content within sass files.
 
-*,
-*::before,
-*::after {
-box-sizing: border-box;
+    *,
+    *::before,
+    *::after {
+    box-sizing: border-box;
+    }
+
+header h2 {
+    text-shadow: 0 0 1px #000000, 0 0 3px #a88100bd;
 }
 
 // in this menu example i used nesting where possible to cut down on addtional call backs.
@@ -26,20 +30,10 @@ box-sizing: border-box;
     padding: 0 .25rem;
     }
 
-    a {
-        text-decoration: none;
-        color: rgb(4, 112, 18);
-        text-transform: uppercase;
-        font-size: 1em;
-        font-weight: bold;
-        font-family: 'Lato';
-
-        &:hover {
-            text-decoration: underline;
-            text-decoration-color: rgb(131, 3, 114);
-            // this nested pseudo element is an example of how to nest them within a containing div
-        }
-    }
-
-    
 }
+
+.Main-paragraph {
+    background-color: coral;
+}
+
+
