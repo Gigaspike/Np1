@@ -39,10 +39,39 @@
     border-radius: 5px;
     white-space: normal;
     padding: 1% 10%;
+    position: relative;
     // border-color: brown;
     // box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     // box-sizing: border-box;
     // using variables to link to page color schemes
 }
 
+.col {
+    height: 10em;
+    width: 100%;
+    margin: 10px auto;
+    .thisone {
+        position: relaintive;
+        display: inline-block;
+        min-width: 100px;
+        max-width: 30%;
+        padding-right: 10px;
+    }
+
+    .thistwo {
+        position: relative;
+        display: inline-block;
+        min-width: 100px;
+        max-width: 30%;
+        padding-right: 10px;
+    }
+    .thisthree {
+        position: relative;
+        display: inline-block;
+        min-width: 100px;
+        max-width: 30%;
+        padding-right: 10px;
+    }
+
+}
 

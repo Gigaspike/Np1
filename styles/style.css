@@ -117,5 +117,36 @@ body {
   border-radius: 5px;
   white-space: normal;
   padding: 1% 10%;
+  position: relative;
+}
+
+.col {
+  height: 10em;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.col .thisone {
+  position: relaintive;
+  display: inline-block;
+  min-width: 100px;
+  max-width: 30%;
+  padding-right: 10px;
+}
+
+.col .thistwo {
+  position: relative;
+  display: inline-block;
+  min-width: 100px;
+  max-width: 30%;
+  padding-right: 10px;
+}
+
+.col .thisthree {
+  position: relative;
+  display: inline-block;
+  min-width: 100px;
+  max-width: 30%;
+  padding-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */
