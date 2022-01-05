@@ -1,0 +1,16 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //flex center short cut
+}
+
+// mix in to cut down on repeat code
+
+header {
+
+    @include flexCenter();
+
+    background: lightblue;
+    color: $textColor;
+}
