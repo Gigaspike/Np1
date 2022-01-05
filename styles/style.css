@@ -123,14 +123,19 @@ body {
 .col {
   height: 10em;
   width: 100%;
-  margin: 10px auto;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .col .thisone {
-  position: relative;
-  display: inline-block;
+  overflow: none;
   min-width: 100px;
-  max-width: 30%;
+  max-width: 100%;
   padding: .5rem;
   background: linear-gradient(58deg, #162417ab, #440d68be 55%, #270808da);
   -webkit-box-shadow: inset 0px 0px 0px 8px rgba(255, 196, 0, 0.322);
@@ -142,10 +147,10 @@ body {
 }
 
 .col .thistwo {
-  position: relative;
-  display: inline-block;
+  max-height: 100%;
+  overflow: none;
   min-width: 100px;
-  max-width: 30%;
+  max-width: 100%;
   padding: .5rem;
   background: linear-gradient(58deg, #162417ab, #440d68be 55%, #270808da);
   color: white;
@@ -157,10 +162,9 @@ body {
 }
 
 .col .thisthree {
-  position: relative;
-  display: inline-block;
+  overflow: none;
   min-width: 100px;
-  max-width: 30%;
+  max-width: 100%;
   padding: .5rem;
   background: linear-gradient(58deg, #162417ab, #440d68be 55%, #270808da);
   -webkit-box-shadow: inset 0px 0px 0px 8px rgba(255, 196, 0, 0.322);
